@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 portada {
-    /* background-color: black;
-    color: wheat; */
     min-height: 100vh;
     min-width: 100vw;
     background-image: url(./bigFish.png);
@@ -20,7 +18,6 @@ portada {
 actores {
     display: flex;
     justify-content: space-between;
-    /* color: darkslategrey; */
     min-height: 20vh;
     min-width: auto;
 }
@@ -42,7 +39,6 @@ pelicula {
 
 titulo {
     font-size: 2.2em;
-    /* color: rgb(90, 69, 38); */
     font-weight: 500;
 }
 
