@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+portada {
+    /* background-color: black;
+    color: wheat; */
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(./bigFish.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(75, 58, 32);
+}
+
+actores {
+    display: flex;
+    justify-content: space-between;
+    /* color: darkslategrey; */
+    min-height: 20vh;
+    min-width: auto;
+}
+
+actor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 550;
+    font-size: 2.2em;
+}
+
+pelicula {
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+    min-width: auto;
+}
+
+titulo {
+    font-size: 2.2em;
+    /* color: rgb(90, 69, 38); */
+    font-weight: 500;
+}
+
+director {
+    font-size: 1.5em;
+}
+
+frase {
+    font-family: "Satisfy", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    color: rgb(118, 119, 38);
+    text-shadow: 1.5px 1.5px 1px rgb(255, 255, 255);
+    min-height: 10vh;
+    min-width: auto;
+}
